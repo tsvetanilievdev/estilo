@@ -1,0 +1,13 @@
+# robots.txt за Естило Козметичен Център
+User-agent: *
+Allow: /
+
+# Sitemap URL
+Sitemap: https://estilo-cosmetic.bg/sitemap.xml
+
+# Дисколау частни или админ страници, ако съществуват
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*?query=
+Disallow: /*.json$ 
